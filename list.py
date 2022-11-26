@@ -1,4 +1,8 @@
-l1=[1,2,3,5]
-l2=[1,2,3,6]
-print(l1*l2)
-
+n=5
+for  i in range(1,n+1):
+    for k in range(1,n-i):
+        print(" ",end=" ")
+        for j in range(1,n):
+            if j==n-i+1:
+                print(" *",end=" ")
+        print()
